@@ -10,7 +10,7 @@ def main():
         nachname, vorname = zeile.strip().split(',')
         formatierte_namen.append(f'{vorname.strip()} {nachname.strip()}')
 
-    ausgabe = ', '.join(formatierte_namen)
+    ausgabe = '\n'.join(formatierte_namen)
     print(ausgabe)
 
 if __name__ == '__main__':
